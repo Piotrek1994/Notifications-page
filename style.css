@@ -10,8 +10,31 @@ body {
 	align-items: center;
 	flex-direction: column;
 	height: 100vh;
-	background-color: rgb(226, 225, 225);
+	background-color: hsla(0, 0%, 81%, 0.24);
 	font-family: 'Plus Jakarta Sans', sans-serif;
 	font-size: 13px;
 }
 
+.notification-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	width: 40%;
+    height: 85%;
+	padding: 2rem;
+	background-color: white;
+	border-radius: 20px;
+}
+
+.notification-info {
+	margin-bottom: 2rem;
+}
+
+.notification-photo {
+	width: 40px;
+	height: 40px;
+}
+
+.notifaction-read {
+	background-color: hsl(205, 33%, 90%);
+}
