@@ -78,18 +78,36 @@ body {
 	color: hsl(219, 12%, 42%);
 }
 
-.notification-name {
-	font-weight: 800;
-}
 
-.notification-person_time {
-	color: hsl(219, 14%, 63%);
-}
 
 .notification {
+	position: relative;
 	height: 40px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	color: hsl(219, 14%, 63%);
 
+}
+
+.notification-name {
+	font-weight: 800;
+	color: black;
+	margin-right: 0.3rem;
+}
+
+.notification-name_bold {
+	font-weight: 800;
+	color: hsl(219, 12%, 42%);
+	margin-left: 0.3rem;
+}
+.red-dot::after {
+	top: 5px;
+	right: -15px;
+	position: absolute;
+	content: '';
+	background-color: red;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
 }
