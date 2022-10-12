@@ -18,9 +18,8 @@ body {
 .notification-container {
 	display: flex;
 	flex-direction: column;
-
 	width: 42rem;
-	height: 50rem;
+	height: 47rem;
 	padding: 2rem;
 	background-color: white;
 	border-radius: 20px;
@@ -31,6 +30,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin-bottom: 2rem;
 }
 
 .notification-head_counter {
@@ -47,8 +47,8 @@ body {
 
 .notification-info {
 	display: flex;
-	padding: 1rem;
 	align-items: center;
+	padding: 1rem;
 	margin-bottom: 0.5rem;
 	font-size: 15px;
 }
@@ -133,4 +133,8 @@ body {
 	width: 40px;
 	height: 40px;
 	margin-left: auto;
+}
+
+.notification-person_time {
+	margin-top: 4px;
 }
