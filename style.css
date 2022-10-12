@@ -18,7 +18,7 @@ body {
 .notification-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+
 	
 	width: 42rem;
     height: 50rem;
@@ -54,6 +54,7 @@ body {
 	align-items: center;
 	margin-bottom: 0.5rem;
 	font-size: 15px;
+
 }
 
 .notification-photo {
@@ -102,12 +103,29 @@ body {
 	margin-left: 0.3rem;
 }
 .red-dot::after {
-	top: 5px;
-	right: -15px;
+	top: 7px;
+	right: -13px;
 	position: absolute;
 	content: '';
 	background-color: red;
-	width: 10px;
-	height: 10px;
+	width: 8px;
+	height: 8px;
 	border-radius: 50%;
+}
+
+.notification-person_text {
+	width: 32rem;
+	padding: 1rem;
+	margin-top: 1rem;
+	border: 1px solid rgb(206, 206, 206);
+	border-radius: 5px;
+}
+
+.notification-message {
+	height: 100%;
+}
+
+.photo {
+	margin-bottom: auto;
+	
 }
