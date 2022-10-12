@@ -118,7 +118,7 @@ body {
 	border: 1px solid rgba(206, 206, 206, 0.466);
 	border-radius: 5px;
 	color: hsl(219, 12%, 42%);
-	transition:  background 0.7s;
+	transition: background 0.7s;
 }
 
 .notification-message {
@@ -145,12 +145,54 @@ body {
 	margin-top: 4px;
 }
 
-.notification-name_bold, .image-chess, .notification-name_chess, .notification-person_text, .notification-head_mark, .notification-name:hover {
+.notification-name_bold,
+.image-chess,
+.notification-name_chess,
+.notification-person_text,
+.notification-head_mark,
+.notification-name:hover {
 	cursor: pointer;
 }
 
-.notification-person_text:hover{
+.notification-person_text:hover {
 	background-color: hsl(205, 33%, 90%);
 	border: 1px solid white;
 }
 
+@media (max-width: 375px) {
+	.notification-head_container {
+		font-size: 10px;
+	}
+
+	.notification-head_counter {
+		margin-left: 0.5rem;
+	}
+
+	.notification-head_mark {
+		font-size: 14px;
+	}
+	.notification-container {
+		width: 100%;
+		padding: 10px;
+	}
+	.notification-info {
+		font-size: 14px;
+	}
+
+	.red-dot_mark::after {
+		top: 25px;
+		right: 15px;
+	}
+
+	.red-dot_jacob::after {
+		top: 25px;
+		right: 113px;
+	}
+
+	.notification-person_text {
+		width: 100%;
+	}
+	.notification-info {
+		margin-bottom: 0.9rem;
+	}
+}
