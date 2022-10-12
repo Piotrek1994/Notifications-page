@@ -15,11 +15,16 @@ body {
 	font-size: 13px;
 }
 
+.attribution {
+	position: absolute;
+	bottom: 0;
+}
+
 .notification-container {
 	display: flex;
 	flex-direction: column;
 	width: 42rem;
-	height: 47rem;
+	height: 48rem;
 	padding: 2rem;
 	background-color: white;
 	border-radius: 20px;
@@ -110,9 +115,10 @@ body {
 	width: 32.3rem;
 	padding: 1rem;
 	margin-top: 1rem;
-	border: 1px solid rgb(206, 206, 206);
+	border: 1px solid rgba(206, 206, 206, 0.466);
 	border-radius: 5px;
 	color: hsl(219, 12%, 42%);
+	transition:  background 0.7s;
 }
 
 .notification-message {
@@ -138,3 +144,13 @@ body {
 .notification-person_time {
 	margin-top: 4px;
 }
+
+.notification-name_bold, .image-chess, .notification-name_chess, .notification-person_text, .notification-head_mark, .notification-name:hover {
+	cursor: pointer;
+}
+
+.notification-person_text:hover{
+	background-color: hsl(205, 33%, 90%);
+	border: 1px solid white;
+}
+
